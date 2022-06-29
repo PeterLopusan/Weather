@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/notification_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:gravity="center_vertical|center_horizontal"
+    android:theme="@style/WeatherTheme.BlackColorText"
+    android:weightSum="100"
+    tools:background="@drawable/sunny">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_weight="10">
+
+        <TextView
+            android:id="@+id/txt_temperature_notification_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|center_horizontal"
+            android:textColor="?weatherTextColor"
+            android:textSize="40sp"
+            tools:text="10°C" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="90"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_city_notification_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="?weatherTextColor"
+            android:textSize="20sp"
+            tools:text="Bratislava" />
+
+        <TextView
+            android:id="@+id/txt_weather_description_notification_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="?weatherTextColor"
+            android:textSize="11sp"
+            tools:text="Sunny" />
+    </LinearLayout>
+</LinearLayout>

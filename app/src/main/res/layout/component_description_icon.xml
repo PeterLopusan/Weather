@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:theme="@style/WeatherTheme.BlackColorText">
+
+    <TextView
+        android:id="@+id/txt_weather_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="?weatherTextColor"
+        android:textSize="25sp"
+        android:textStyle="bold|italic"
+        tools:text="Sunny" />
+
+    <ImageView
+        android:id="@+id/img_weather_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        android:contentDescription="@string/weather_icon_description"
+        tools:src="@drawable/example" />
+
+</LinearLayout>

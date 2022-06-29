@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.weather.ui.fragments.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_self"
+            app:destination="@id/nav_home"
+            app:popUpTo="@id/nav_home"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_my_places"
+        android:name="com.example.weather.ui.fragments.MyLocationsFragment"
+        android:label="@string/menu_my_places"
+        tools:layout="@layout/fragment_my_location" >
+        <action
+            android:id="@+id/action_nav_my_places_to_addPlaceFragment"
+            app:destination="@id/addPlaceFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.example.weather.ui.fragments.SettingsFragment"
+        android:label="@string/menu_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/addPlaceFragment"
+        android:name="com.example.weather.ui.fragments.AddPlaceFragment"
+        android:label="@string/add_location"
+        tools:layout="@layout/fragment_add_location">
+        <action
+            android:id="@+id/action_addPlaceFragment_to_nav_my_places"
+            app:destination="@id/nav_my_places"
+            app:popUpTo="@id/nav_my_places"
+            app:popUpToInclusive="true" />
+    </fragment>
+</navigation>

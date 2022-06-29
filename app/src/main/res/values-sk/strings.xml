@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Počasie</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Počasie</string>
+    <string name="menu_my_places">Moje miesta</string>
+    <string name="menu_settings">Nastavenia</string>
+    <string name="search">Search</string>
+    <string name="current_weather">Aktuálne počasie</string>
+    <string name="feels_like">Pocitová teplota</string>
+    <string name="temperature_value_celsius">%1$d°C</string>
+    <string name="temperature_value_fahrenheit">%1$d°F</string>
+    <string name="min_max_temperature_value_celsius">%1$d°C\n%2$d°C</string>
+    <string name="min_max_temperature_value_fahrenheit">%1$d°F\n%2$d°F</string>
+    <string name="sunrise">☀⬆ %1$s</string>
+    <string name="sunset">☀⬇ %1$s</string>
+    <string name="wind_kilometers">💨 %1$d km/h</string>
+    <string name="wind_miles">💨 %1$d mi/h</string>
+    <string name="humidity">💧 %1$s %%</string>
+    <string name="max_temperature">Maximálna teplota</string>
+    <string name="min_temperature">Minimálna teplota</string>
+    <string name="confirm">Potvrdiť</string>
+    <string name="city">Mesto</string>
+    <string name="country">Krajina</string>
+    <string name="longitude">Zemepisná dĺžka</string>
+    <string name="latitude">Zemepisná šírka</string>
+    <string name="unknown_location">Neznáma lokalita!</string>
+    <string name="successfully_save">Lokalita bola úspešne uložená</string>
+    <string name="my_location">Moja poloha</string>
+    <string name="add_location">Pridať polohu</string>
+    <string name="exit">Ukončiť aplikáciu</string>
+    <string name="retry">Skúsiť znovu</string>
+    <string name="error">Error</string>
+    <string name="temperature_unit">Jednotka teploty</string>
+    <string name="celsius">Celzium</string>
+    <string name="fahrenheit">Fahrenheit</string>
+    <string name="speed_unit">Jednotka rýchlosti</string>
+    <string name="kilometers_per_hour">Kilometre za hodinu</string>
+    <string name="miles_per_hour">Míle za hodinu</string>
+    <string name="map_type">Typ mapy</string>
+    <string name="normal">Normálny</string>
+    <string name="satellite">Satelitný</string>
+    <string name="turn_on">Zapnutá</string>
+    <string name="turn_off">Vypnutá</string>
+    <string name="permanent_notification">Stála notifikácia o počasí</string>
+    <string name="last_update">Naposledy aktualizované %1$s</string>
+    <string name="no_internet_connection">Žiadné internetové pripojenie</string>
+    <string name="backup_failed">Zlyhalo uloženie zálohy</string>
+    <string name="no_backup_for_this_id">Pre túto lokalitu neexistuje offline záloha \nPre pokračovanie sa pripojte k internetu</string>
+    <string name="language">Jazyk</string>
+    <string name="language_for_url">sk</string>
+    <string name="select_language">Vybrať jazyk</string>
+    <string name="english">English</string>
+    <string name="german">Deutsch</string>
+    <string name="czech">Čeština</string>
+    <string name="slovak">Slovenčina</string>
+    <string name="weather_icon_description">ikona počasia</string>
+    <string name="refresh_button_description">tlačídlo znovunačítania</string>
+    <string name="today">dnes</string>
+    <string name="tomorrow">zajtra</string>
+
+    <string name="shared_pref_id">Favourite ID</string>
+    <string name="shared_pref_latitude">Last latitude</string>
+    <string name="shared_pref_longitude">Last longitude</string>
+    <string name="shared_pref_city">Last city</string>
+    <string name="shared_pref_country">Last country</string>
+    <string name="shared_pref_temperature_unit">Temperature unit</string>
+    <string name="shared_pref_speed_unit">Speed unit</string>
+    <string name="shared_pref_map_type">Map type</string>
+    <string name="shared_pref_backup_location_id">Backup Location ID</string>
+    <string name="shared_pref_language">Language</string>
+
+
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="app_widget_description">This is an app widget description</string>
+
+
+
+</resources>

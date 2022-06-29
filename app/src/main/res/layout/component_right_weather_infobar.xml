@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="end"
+    android:orientation="vertical"
+    tools:theme="@style/WeatherTheme.BlackColorText">
+
+    <TextView
+        android:id="@+id/txt_sunrise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="?weatherTextColor"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        tools:text="☀⬆ 6:02 " />
+
+    <TextView
+        android:id="@+id/txt_sunset"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="?weatherTextColor"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        tools:text="☀⬇ 20:08" />
+
+    <TextView
+        android:id="@+id/txt_wind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="?weatherTextColor"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        tools:text="💨 15,1 km/h" />
+
+    <TextView
+        android:id="@+id/txt_humidity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:textColor="?weatherTextColor"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        tools:text="💧 71 %" />
+
+</LinearLayout>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/temperature_unit"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radio_btn_celsium"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/celsius" />
+
+            <RadioButton
+                android:id="@+id/radio_btn_fahrenheit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/fahrenheit" />
+
+        </RadioGroup>
+
+        <View
+            style="@style/Widget.Divider.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp" />
+
+
+        <TextView
+            android:id="@+id/txt_speed_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/speed_unit"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+
+        <RadioGroup
+            android:id="@+id/radio_group_speed_unit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radio_btn_kilometers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/kilometers_per_hour" />
+
+            <RadioButton
+                android:id="@+id/radio_btn_miles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/miles_per_hour" />
+
+        </RadioGroup>
+
+        <View
+            style="@style/Widget.Divider.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp" />
+
+        <TextView
+            android:id="@+id/txt_map_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/map_type"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+
+        <RadioGroup
+            android:id="@+id/radio_map_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radio_btn_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/normal" />
+
+            <RadioButton
+                android:id="@+id/radio_btn_satellite"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/satellite" />
+
+        </RadioGroup>
+
+        <View
+            style="@style/Widget.Divider.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp" />
+
+        <TextView
+            android:id="@+id/txt_permanent_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/permanent_notification"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+
+        <RadioGroup
+            android:id="@+id/radio_permanent_notification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radio_btn_permanent_notification_off"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/turn_off" />
+
+            <RadioButton
+                android:id="@+id/radio_btn_permanent_notification_on"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/turn_on" />
+        </RadioGroup>
+
+        <View
+            style="@style/Widget.Divider.Horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="@string/language"
+            android:textSize="25sp"
+            android:textStyle="bold|italic" />
+
+        <Button
+            android:id="@+id/btn_language_selector"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/select_language"
+            android:textAllCaps="false" />
+
+    </LinearLayout>
+</ScrollView>
+
+
